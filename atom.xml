@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://zenghao.github.io/"/>
-  <updated>2015-12-31T06:03:01.999Z</updated>
+  <updated>2015-12-31T06:13:28.478Z</updated>
   <id>http://zenghao.github.io/</id>
   
   <author>
@@ -19,14 +19,14 @@
     <link href="http://zenghao.github.io/2015/12/31/trello%E4%BD%BF%E7%94%A8/"/>
     <id>http://zenghao.github.io/2015/12/31/trello使用/</id>
     <published>2015-12-31T05:39:43.000Z</published>
-    <updated>2015-12-31T06:03:01.999Z</updated>
+    <updated>2015-12-31T06:13:28.478Z</updated>
     <content type="html"><![CDATA[<p>trello是一个方便的团队协作工具，用来做自我目标管理，还是团队管理都是不错胡工具。<br>体验上就像我们平常用贴纸来写下自己的一些目标和要做的东西。<br>使用上非常简单：<br>三个简单概念：Board,Card，List<br>开始一个项目，可以建一个Board,它就像一个大面板一样，里面放满各种需求和任务。<br>然后建一个个List 和 Card ，细分任务，及设定完成时间</p>
 <p>如下<br><img src="http://7xpn9g.com1.z0.glb.clouddn.com/trello%2Fshortcut%2FQQ%E6%88%AA%E5%9B%BE20151231134353_trello.png" alt="trello shortcut"></p>
 <p>更深入使用:<br>Trello提供了非常强大的API：Trello API Documentation<br>非常简单的一些代码，就可以访问Trello的Board数据，然后将这些数据导出来，做进一步的分析。</p>
 <p>简单流程可以这样：<br>首先这里有颜色Label:<br><img src="http://7xpn9g.com1.z0.glb.clouddn.com/trello%2Fshortcut%2FQQ%E6%88%AA%E5%9B%BE20151231135208_trelo_label.jpg" alt="trello lable shortcut"></p>
 <p>我们建一个项目：<br>我们把项目细分模块,分别建List，然后再细分需求，每个需求建一个card<br>定义“需求列表” 为黄色<br>定义“等待开发列表”橙色<br>定义“完成列表待测试”为紫色<br>定义“已完成” 绿色</p>
 <p>若是一个团队我们还可以为每个成员添加一个列表.<br>(因为卡片可以被拖来拖去，所以命名有一定规则：模块名-具体任务)</p>
-<p>参考(<a href="http://tieba.baidu.com/p/3110257967" target="_blank" rel="external">http://tieba.baidu.com/p/3110257967</a>)</p>
+<p>参考:<br>(<a href="http://tieba.baidu.com/p/3110257967" target="_blank" rel="external">http://tieba.baidu.com/p/3110257967</a>)<br>(<a href="http://www.mifengtd.cn/articles/trello.html" target="_blank" rel="external">http://www.mifengtd.cn/articles/trello.html</a>)</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>trello是一个方便的团队协作工具，用来做自我目标管理，还是团队管理都是不错胡工具。<br>体验上就像我们平常用贴纸来写下自己的一些目标和要做的东西。<br>使用上非常简单：<br>三个简单概念：Board,Card，List<br>开始一个项目，可以建一个Board,它]]>
