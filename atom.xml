@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://zenghao.github.io/"/>
-  <updated>2015-12-31T06:13:28.478Z</updated>
+  <updated>2016-01-11T16:18:27.080Z</updated>
   <id>http://zenghao.github.io/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[lua知识点]]></title>
+    <link href="http://zenghao.github.io/2016/01/12/lua%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>http://zenghao.github.io/2016/01/12/lua知识点/</id>
+    <published>2016-01-11T16:17:08.000Z</published>
+    <updated>2016-01-11T16:18:27.080Z</updated>
+    <content type="html"><![CDATA[<p>1, 重新require lua 文件<br>local function reLoadModel(mondelName)<br>    package.loaded[mondelName] = nil<br>    return require(mondelName)<br>end</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>1, 重新require lua 文件<br>local function reLoadModel(mondelName)<br>    package.loaded[mondelName] = nil<br>    return require(mondelName)<b]]>
+    </summary>
+    
+      <category term="lua" scheme="http://zenghao.github.io/categories/lua/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[trello使用]]></title>
