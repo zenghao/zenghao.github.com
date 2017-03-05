@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT,unity3d,lua,c++,c,python" />
+  <meta name="keywords" content="unity3d,game," />
 
 
 
@@ -87,13 +87,19 @@
 
 
 
+<meta name="description" content="游戏的基本框架：Init（）程序第一次被加载时做初始化工作 
+Public void init（）{    绘制窗口大小；    定义球的大小在窗口中的位置和运动    速度；    定义砖块的大小和在窗口的位置；    双缓冲页面的初始化；}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My Gallerry">
-<meta property="og:url" content="http://www.zenghaoblog.com/uncategorized/My-Gallerry/index.html">
+<meta property="og:title" content="base unity3d process">
+<meta property="og:url" content="http://www.zenghaoblog.com/Unity3d/base-unity3d-process/index.html">
 <meta property="og:site_name" content="IF YOU WANT TO TRY THEN TRY">
-<meta property="og:updated_time" content="2017-03-01T17:21:19.457Z">
+<meta property="og:description" content="游戏的基本框架：Init（）程序第一次被加载时做初始化工作 
+Public void init（）{    绘制窗口大小；    定义球的大小在窗口中的位置和运动    速度；    定义砖块的大小和在窗口的位置；    双缓冲页面的初始化；}">
+<meta property="og:updated_time" content="2017-03-05T16:07:29.378Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My Gallerry">
+<meta name="twitter:title" content="base unity3d process">
+<meta name="twitter:description" content="游戏的基本框架：Init（）程序第一次被加载时做初始化工作 
+Public void init（）{    绘制窗口大小；    定义球的大小在窗口中的位置和运动    速度；    定义砖块的大小和在窗口的位置；    双缓冲页面的初始化；}">
 
 
 
@@ -121,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://www.zenghaoblog.com/uncategorized/My-Gallerry/"/>
+  <link rel="canonical" href="http://www.zenghaoblog.com/Unity3d/base-unity3d-process/"/>
 
 
 
 
 
-  <title> My Gallerry | IF YOU WANT TO TRY THEN TRY </title>
+  <title> base unity3d process | IF YOU WANT TO TRY THEN TRY </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -298,7 +304,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://www.zenghaoblog.com/uncategorized/My-Gallerry/">
+    <link itemprop="mainEntityOfPage" href="http://www.zenghaoblog.com/Unity3d/base-unity3d-process/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zeng Hao">
@@ -319,7 +325,7 @@
             
             
               
-                My Gallerry
+                base unity3d process
               
             
           </h1>
@@ -334,8 +340,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-02T01:21:19+08:00">
-                2017-03-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-04T12:37:47+08:00">
+                2017-03-04
               </time>
             
 
@@ -344,6 +350,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Unity3d/" itemprop="url" rel="index">
+                    <span itemprop="name">Unity3d</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -370,7 +398,15 @@
       
 
       
-        
+        <p>游戏的基本框架：<br><strong>Init（）程序第一次被加载时做初始化工作</strong> </p>
+<p>Public void init（）{<br>    绘制窗口大小；<br>    定义球的大小在窗口中的位置和运动<br>    速度；<br>    定义砖块的大小和在窗口的位置；<br>    双缓冲页面的初始化；<br>}<br><a id="more"></a><br><strong>Start（）启动线程</strong></p>
+<p>Public void start（）{<br>创建一个新线程；<br>}<br>当java调用init方法后会自动调用该方法。而<br>当用户从其它页面返回到包含applet的页面<br>时，该方法也会被调用。这表明start方法会<br>被多次调用，而init方法仅仅会被调用一次。<br>start方法是applet重新启动线程的地方，例如<br>再次开始动画显示。</p>
+<p><strong>Run（）运行线程</strong></p>
+<p>While（进程 != true）<br>{<br>绘制目前图像；<br>暂停SPF；<br>碰撞检测；<br>重新绘制图像；<br>}</p>
+<p><strong>Paint（）绘图程序</strong><br>画布<br><strong>Update（）更新程序</strong>  </p>
+<p><strong>Stop（）程序停止运行时</strong></p>
+<p>Public void stop（）{<br>取消一个线程；<br>}<br>该方法在用户离开包含applet的页面时会被<br>自动调用。对同一个applet，该方法会被调<br>用多次。该方法是当用户不在关注applet时，<br>停止那些耗时操作，以免降低系统运行速<br>度。<br>该方法的典型动作是使线程休眠。   </p>
+
       
     </div>
 
@@ -391,6 +427,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/unity3d/" rel="tag"># unity3d</a>
+          
+            <a href="/tags/game/" rel="tag"># game</a>
+          
+        </div>
+      
 
       
         
@@ -400,8 +444,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/blog2/" rel="next" title="blog2">
-                <i class="fa fa-chevron-left"></i> blog2
+              <a href="/uncategorized/My-Gallerry/" rel="next" title="My Gallerry">
+                <i class="fa fa-chevron-left"></i> My Gallerry
               </a>
             
           </div>
@@ -410,8 +454,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/Unity3d/base-unity3d-process/" rel="prev" title="base unity3d process">
-                base unity3d process <i class="fa fa-chevron-right"></i>
+              <a href="/歌单/Hymn-to-life/" rel="prev" title="Hymn to life">
+                Hymn to life <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
