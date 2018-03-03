@@ -3,9 +3,16 @@
   
     
     <entry>
+      <title><![CDATA[startPostgraudate]]></title>
+      <url>%2Fexam%2FstartPostgraudate%2F</url>
+      <content type="text"><![CDATA[and start……]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[Unity3d性能相关]]></title>
       <url>%2Funity3d%2FUnity3d-to-performance%2F</url>
-      <content type="text"><![CDATA[这是一篇有Unity3d 有关的！对付下面试~~恶心1.2.]]></content>
+      <content type="text"><![CDATA[这是一篇有Unity3d 有关的！对付下面试~~恶心1.CPU方面2.GPU方面3.内存方面 1.drawcall是啥？其实就是对底层图形程序（比如：OpenGL ES)接口的调用，以在屏幕上画出东西。所以，是谁去调用这些接口呢？CPU。影响到CPU的效率DrawCalls物理组件（Physics）GC（什么？GC不是处理内存问题的嘛？匹夫你不要骗我啊！不过，匹夫也要提醒一句，GC是用来处理内存的，但是是谁使用GC去处理内存的呢？）当然，还有代码质量 优化链接]]></content>
     </entry>
 
     
